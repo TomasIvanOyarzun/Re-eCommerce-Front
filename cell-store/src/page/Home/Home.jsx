@@ -22,7 +22,7 @@ const Home = () => {
         <Carrusel/>
         
       <div className={s.div_ver_mas}>
-        <Link to='/store/discount/show' style={{textDecoration: 'none', color: 'rgb(96, 177, 228);'}}><Button variant="contained" disableElevation>
+        <Link to='/store/discount/show' style={{textDecoration: 'none', color: 'rgb(96, 177, 228)'}}><Button variant="contained" disableElevation>
       Ver Mas
     </Button></Link>
       </div>
