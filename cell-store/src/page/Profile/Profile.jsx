@@ -26,7 +26,7 @@ const Profile = () => {
   }, [dispatch]);
 
   useEffect(() => {
-    (user._id) ? dispatch(getReviewByUser(user._id)) : console.log('no hay ID');
+    (user?._id) ? dispatch(getReviewByUser(user?._id)) : console.log('no hay ID');
   }, [dispatch, user._id]);
 
   function handleClick(e) {
