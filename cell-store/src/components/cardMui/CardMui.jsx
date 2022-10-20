@@ -7,11 +7,6 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 import { logoMatch } from './helperCard';
 import style from './CardMui.module.css'
 import { Link } from 'react-router-dom';
-const matctStyle = (option) => {
-   if (option === 'samsung') return {width: '120px', height: '40px'}
-   if(option === 'motorola') return {width: '60px', height: '40px'}
-   if (option === 'iphone') return {width: '40px', height: '40px'}
-}
 
 const CardMui = ({image, name, description, brand, id}) => {
   return (
@@ -30,7 +25,7 @@ const CardMui = ({image, name, description, brand, id}) => {
           {name}
         </Typography>
         
-          <img style={matctStyle(brand)} src={logoMatch(brand)} alt={brand + ' logo'}></img>
+          <img  src={logoMatch(brand)} alt={brand + ' logo'}></img>
    
       </CardContent>
     </CardActionArea>
