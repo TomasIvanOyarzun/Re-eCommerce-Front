@@ -28,7 +28,7 @@ const Home = () => {
       </div>
     
 
-      <SliderCard />
+      
       
     </div>
   );
