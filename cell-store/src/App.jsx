@@ -41,7 +41,7 @@ import CardPagination from "./page/CardPagination/CardPagination";
 function App() {
   const user_redux = useSelector((state) => state.user.user);
   const user = JSON.parse(localStorage.getItem("user"));
-  console.log("USER:", user);
+ 
   const dispatch = useDispatch();
   const page = useSelector((state) => state.product.page);
   useEffect(() => {
