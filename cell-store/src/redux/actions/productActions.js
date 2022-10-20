@@ -18,7 +18,7 @@ export const LINK_MP = "LINK_MP"
 export const PRODUCTS_FILTER = "PRODUCTS_FILTER"
 
 
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = import.meta.env.VITE_API || "http://localhost:3001";
 
 export const getAllProducts = () => {
   return async (dispatch) => {
