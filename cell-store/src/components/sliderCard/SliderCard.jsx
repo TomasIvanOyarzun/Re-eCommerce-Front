@@ -1,7 +1,7 @@
 import React from 'react'
-import Carousel from "react-multi-carousel";
+import Carousel from "react-multi-carousel"
 import { useSelector } from 'react-redux';
-import style from './SliderCard.module.css'
+
 
 
 const SliderCard = () => {
