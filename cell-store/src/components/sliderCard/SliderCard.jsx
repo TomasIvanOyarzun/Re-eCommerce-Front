@@ -16,15 +16,15 @@ const SliderCard = () => {
   
 
   return (
-    <div className={style.container}>
-     <div className={style.sub_container}>
-    <h2>Celulares Samsung</h2>
-    <Carousel  infinite={true} >
-  <div>hola</div>
+   
+     <Carousel  infinite={true} >
+        <div>hola</div>
+        <div>hola</div>
+        <div>hola</div>
+       <div>hola</div>
    
      </Carousel>
-    </div>
-  </div>
+  
   )
 }
 
