@@ -8,6 +8,7 @@ const CardPagination = () => {
           <Paginado />
       <Cards />
       <Paginado />
+    <SliderCard/>
 
     </div>
   )
