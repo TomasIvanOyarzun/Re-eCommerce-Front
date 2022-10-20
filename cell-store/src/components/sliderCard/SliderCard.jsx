@@ -40,7 +40,7 @@ const SliderCard = () => {
     <div className={style.container}>
      <div className={style.sub_container}>
     <h2>Celulares Samsung</h2>
-    <Carousel responsive={responsive} infinite={true} dotListClass="custom-dot-list-style"  itemClass="carousel-item-padding-40-px">
+    <Carousel responsive={responsive} infinite={true} >
       {product?.map(el => {
         return (
           <CardMui name={el.name}
