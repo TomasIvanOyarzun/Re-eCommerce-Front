@@ -1,5 +1,4 @@
 import React from 'react'
-import CardMui from '../cardMui/CardMui'
 import Carousel from "react-multi-carousel";
 import { useSelector } from 'react-redux';
 import style from './SliderCard.module.css'
