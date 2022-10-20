@@ -41,45 +41,18 @@ const SliderCard = () => {
      <div className={style.sub_container}>
     <h2>Celulares Samsung</h2>
     <Carousel responsive={responsive} infinite={true} >
-      {product?.map(el => {
-        return (
-          <CardMui name={el.name}
-           image={el.image}
-           
-           brand = {'samsung'}
-           id= {el._id}
-          />
-        )
-      })}
+  <div>hola</div>
     
   </Carousel>
   <h2>Celulares Motorola</h2>
   <Carousel responsive={responsive} infinite={true} >
-      {product?.map(el => {
-        return (
-          <CardMui name={el.name}
-           image={el.image}
-           
-           brand = {'motorola'}
-           id= {el._id}
-          />
-        )
-      })}
+     <div>hola</div>
     
   </Carousel>
 
   <h2>Celulares Iphone</h2>
   <Carousel responsive={responsive}  >
-      {product?.map(el => {
-        return (
-          <CardMui name={el.name}
-           image={el.image}
-           
-           brand = {'iphone'}
-           id= {el._id}
-          />
-        )
-      })}
+   <div>hola</div>
     
      </Carousel>
     </div>
