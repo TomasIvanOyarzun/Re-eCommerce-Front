@@ -12,17 +12,18 @@ import logo from "../../image/logo.png";
 import corazonRojo from "../../image/corazonrojo.png";
 
 export const NavBar = () => {
-  // const [click, setClick] = useState(false)
-  // const user_redux = useSelector((state) => state.user.user);
-  // const dispatch = useDispatch();
+   const [click, setClick] = useState(false)
+   const user_redux = useSelector((state) => state.user.user);
+   const user = localStorage.getItem('user')
+   const dispatch = useDispatch();
 
-  // function handleClick(e) {
-  //   dispatch(changePage(1));
-  //   dispatch(getProductsPerPage(8));
-  //   dispatch(getAllProducts());
-  // }
+   function handleClick(e) {
+     dispatch(changePage(1));
+     dispatch(getProductsPerPage(8));
+     dispatch(getAllProducts());
+   }
 
-  //
+  
 
   return (
     <>
