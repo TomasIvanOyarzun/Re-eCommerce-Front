@@ -1,10 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import CardMui from '../cardMui/CardMui'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { useDispatch, useSelector } from 'react-redux';
-import { productBrand } from '../../redux/actions/productActions';
-import { Typography } from '@mui/material';
+import { useSelector } from 'react-redux';
 import style from './SliderCard.module.css'
 const responsive = {
   superLargeDesktop: {
