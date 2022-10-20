@@ -26,9 +26,9 @@ const Home = () => {
       Ver Mas
     </Button></Link>
       </div>
-    
+     
 
-      
+      <SliderCard/>
       
     </div>
   );
