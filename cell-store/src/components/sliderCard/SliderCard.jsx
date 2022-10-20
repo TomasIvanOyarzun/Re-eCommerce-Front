@@ -21,18 +21,7 @@ const SliderCard = () => {
     <h2>Celulares Samsung</h2>
     <Carousel  infinite={true} >
   <div>hola</div>
-    
-  </Carousel>
-  <h2>Celulares Motorola</h2>
-  <Carousel  infinite={true} >
-     <div>hola</div>
-    
-  </Carousel>
-
-  <h2>Celulares Iphone</h2>
-  <Carousel   >
-   <div>hola</div>
-    
+   
      </Carousel>
     </div>
   </div>
