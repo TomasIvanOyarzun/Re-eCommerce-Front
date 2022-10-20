@@ -29,9 +29,9 @@ const responsive = {
 const SliderCard = () => {
  
     const product = useSelector(state => state.product.products)
-    const samsungProduct = product.filter(f => f.name.toLowerCase().includes('samsung'))
-    const motorolaProduct = product.filter(f => f.name.toLowerCase().includes('motorola'))
-    const iphoneProduct = product.filter(f => f.name.toLowerCase().includes('iphone'))
+    //const samsungProduct = product.filter(f => f.name.toLowerCase().includes('samsung'))
+   // const motorolaProduct = product.filter(f => f.name.toLowerCase().includes('motorola'))
+   // const iphoneProduct = product.filter(f => f.name.toLowerCase().includes('iphone'))
     
    
   
@@ -41,11 +41,11 @@ const SliderCard = () => {
      <div className={style.sub_container}>
     <h2>Celulares Samsung</h2>
     <Carousel responsive={responsive} infinite={true} dotListClass="custom-dot-list-style"  itemClass="carousel-item-padding-40-px">
-      {samsungProduct?.map(el => {
+      {product?.map(el => {
         return (
           <CardMui name={el.name}
            image={el.image}
-           description={el.description}
+           
            brand = {'samsung'}
            id= {el._id}
           />
@@ -55,11 +55,11 @@ const SliderCard = () => {
   </Carousel>
   <h2>Celulares Motorola</h2>
   <Carousel responsive={responsive} infinite={true} >
-      {motorolaProduct?.map(el => {
+      {product?.map(el => {
         return (
           <CardMui name={el.name}
            image={el.image}
-           description={el.description}
+           
            brand = {'motorola'}
            id= {el._id}
           />
@@ -70,11 +70,11 @@ const SliderCard = () => {
 
   <h2>Celulares Iphone</h2>
   <Carousel responsive={responsive}  >
-      {iphoneProduct?.map(el => {
+      {product?.map(el => {
         return (
           <CardMui name={el.name}
            image={el.image}
-           description={el.description}
+           
            brand = {'iphone'}
            id= {el._id}
           />
